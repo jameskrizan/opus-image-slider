@@ -1,0 +1,20 @@
+#slides img:not([id*='controls-']) {
+	width:100%;
+}
+#slides {
+	position: relative;
+}
+[id*='controls-'] {
+	position: absolute;
+	top: 47%;
+	display: none;
+}
+[id*='controls-']:hover {
+	cursor: pointer;
+}
+#controls-right {
+	right: 10%;
+}
+#controls-left {
+	left: 10%;
+}
